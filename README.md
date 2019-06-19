@@ -28,11 +28,7 @@ The code must be modern and easy to maintain.
 
 • Your code must allow new featuresto be added easily. Yet, it should update seamlessly and be consistent throughout every “component” when new information is received from the “backend”.
 
-• You intend to demo the app to a lot of people who might become customers.
-
-It must be tested so that there are no surprises in demos. Feature Requirements The investors are quite pessimistic of your 
-approach and have a lot of alternative ideas that you’ve promised to entertain to qualify for their funds. 
-You must design a flexible architecture for your stock prices.
+• You intend to demo the app to a lot of people who might become customers. It must be tested so that there are no surprises in demos. Feature Requirements The investors are quite pessimistic of yourapproach and have a lot of alternative ideas that you’ve promised to entertain to qualify for their funds. You must design a flexible architecture for your stock prices.
 
 • It would be simply amazing if you could swap out algorithms that recommend a buy/hold/sell rating on the fly.
 
