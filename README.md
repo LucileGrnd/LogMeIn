@@ -21,16 +21,21 @@ that your backend service will provide, as well the recommendation for buying, h
 Be sure to keep your code maintained in such a way that you can later replace it with a backend API. 
 You can call these functions “stockPriceGenerator” (that takes the stock symbol and dates as parameters), 
 “socialMediaCountGenerator” (that takes the stock symbol and social media type e.g. Twitter) and “recommendationAlgorithm” 
-(that takes the stock prices and social media counts) 
+(that takes the stock prices and social media counts).
+
 • If things go well, you expect to have a team continue building the frontend and adding more features. 
-The code must be modern and easy to maintain. 
-• Your code must allow new featuresto be added easily. Yet, it should update seamlessly and be consistent throughout every “component” when new 
-information is received from the “backend”. 
-• You intend to demo the app to a lot of people who might become customers. 
+The code must be modern and easy to maintain.
+
+• Your code must allow new featuresto be added easily. Yet, it should update seamlessly and be consistent throughout every “component” when new information is received from the “backend”.
+
+• You intend to demo the app to a lot of people who might become customers.
+
 It must be tested so that there are no surprises in demos. Feature Requirements The investors are quite pessimistic of your 
 approach and have a lot of alternative ideas that you’ve promised to entertain to qualify for their funds. 
-You must design a flexible architecture for your stock prices.  
-• It would be simply amazing if you could swap out algorithms that recommend a buy/hold/sell rating on the fly.  
+You must design a flexible architecture for your stock prices.
+
+• It would be simply amazing if you could swap out algorithms that recommend a buy/hold/sell rating on the fly.
+
 • You understand that some algorithms might require more information (like constants or risk ratios) and other information 
 in order to generate this. It would be great if you could account for this. 
 
@@ -39,7 +44,8 @@ in order to generate this. It would be great if you could account for this.
 The app works with a lot of data. It needs to be presented to the user in a digestible way. 
 Even though you have access to multiple CSS libraries, you’ve decided to show off your skills and write out your styles 
 directly in CSS/SASS/LESS. You only care about keeping the app’s footprint to a minimum and would do anything to speed up 
-the initial load times. 
+the initial load times.
+
 • There needs to be separate sections showing  o user input for stock symbol, a time window that 
 is defaulted to 10 days (including today),  o a count of social media posts and the stock price over 10 days, o recommendations 
 for when to buy, hold (do nothing), or sell in those 10 days.
