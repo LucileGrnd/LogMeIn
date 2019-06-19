@@ -1,7 +1,7 @@
 
 Stock Market Recommender 
  
-#Background Behavioral 
+# Background Behavioral 
 
 Finance is an exciting field and you’ve decided to jump in with an idea for your new start up. 
 In an earlier experimentation you’ve noticed a correlation between the various social media posts on a stock symbol 
@@ -13,7 +13,7 @@ The recommendation adjusts itself based on data.
 Unfortunately, there are multiple challenges around building this app. However, as a smart CTO, you’ve realized that things 
 must be done in parallel. While you look at building your backend, you’ve decided to start working on the frontend today. 
 
-#Technical Requirements 
+# Technical Requirements 
 
 • Since you don’t have a complete backend available to you yet, you will have to create and use your own mock data. 
 Use the Math.random function to generate mock values for a given stock price and the count of social media posts 
@@ -39,6 +39,7 @@ in order to generate this. It would be great if you could account for this.
 The app works with a lot of data. It needs to be presented to the user in a digestible way. 
 Even though you have access to multiple CSS libraries, you’ve decided to show off your skills and write out your styles 
 directly in CSS/SASS/LESS. You only care about keeping the app’s footprint to a minimum and would do anything to speed up 
-the initial load times. • There needs to be separate sections showing  o user input for stock symbol, a time window that 
+the initial load times. 
+• There needs to be separate sections showing  o user input for stock symbol, a time window that 
 is defaulted to 10 days (including today),  o a count of social media posts and the stock price over 10 days, o recommendations 
 for when to buy, hold (do nothing), or sell in those 10 days.
