@@ -1,0 +1,345 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.body {
+  height: 100%;
+}
+
+/* Homepage */
+
+h1 {
+  color: #edf5e1;
+  font-weight: 500;
+  font-family: "B612", sans-serif;
+}
+
+.container1 {
+  position: relative;
+  width: 320px;
+  background-color: #8de4af;
+  height: 500px;
+  border-radius: 16px;
+  margin: 10px;
+  font-family: "B612", sans-serif;
+}
+
+.title {
+  position: absolute;
+  font-size: 37px;
+  left: 34px;
+  top: 38px;
+  width: 241px;
+  text-align: center;
+}
+
+.container1 img {
+  position: absolute;
+  left: 125px;
+  top: 177px;
+}
+
+.search {
+  position: absolute;
+  left: 45px;
+  top: 280px;
+}
+
+.input {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: none;
+  height: 30px;
+  width: 200px;
+}
+
+.submit {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: none;
+  width: 30px;
+  height: 32px;
+  color: #edf5e1;
+  margin-left: -2px;
+  background-color: #5cdb95;
+}
+
+.submit:hover {
+  cursor: pointer;
+  color: #5cdb95;
+  background-color: #edf5e1;
+}
+
+.submit:focus {
+  outline: none;
+}
+
+.linkHome {
+  position: absolute;
+  top: 383px;
+  left: 65px;
+  text-decoration: none;
+  color: #edf5e1;
+  background-color: #5cdb95;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.linkHome:hover {
+  color: #5cdb95;
+  background-color: #edf5e1;
+}
+
+/* Stocks list */
+
+.container2 {
+  position: relative;
+  width: 320px;
+  background-color: #8de4af;
+  height: 500px;
+  border-radius: 16px;
+  margin: 10px;
+  font-family: "B612", sans-serif;
+}
+
+.title2 {
+  position: absolute;
+  font-size: 20px;
+  left: 34px;
+  top: 38px;
+  width: 241px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+
+.search2 {
+  position: absolute;
+  top: 96px;
+  left: 44px;
+}
+
+.input2 {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: none;
+  height: 30px;
+  width: 200px;
+}
+
+.submit2 {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: none;
+  width: 30px;
+  height: 32px;
+  color: #edf5e1;
+  margin-left: -2px;
+  background-color: #5cdb95;
+}
+
+/* Stock card */
+
+.flex {
+  overflow: scroll;
+  height: 330px;
+  position: absolute;
+  top: 155px;
+  left: 26px;
+  width: 270px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border-radius: 3px;
+  background-color: #379683;
+  color: white;
+  position: relative;
+}
+
+.linkCard {
+  text-decoration: none;
+  color: #edf5e1;
+  background-color: #5cdb95;
+  padding: 2px;
+  border-radius: 2px;
+  font-size: 10px;
+  margin: 5px;
+}
+
+.container3 h5 {
+  margin: 3px;
+}
+
+.container3 p {
+  margin: 3px;
+}
+
+.container3 p span {
+  color: #edf5e1;
+}
+
+/* Stock detail */
+
+.container4 {
+  position: relative;
+  width: 320px;
+  background-color: #8de4af;
+  height: 500px;
+  border-radius: 16px;
+  margin: 10px;
+  font-family: "B612", sans-serif;
+}
+
+.scroll {
+  overflow: scroll;
+  height: 405px;
+  position: absolute;
+  top: 79px;
+  width: 287px;
+  left: 22px;
+}
+
+.container4 h2 {
+  position: absolute;
+  font-size: 20px;
+  left: 35px;
+  top: 35px;
+  width: 241px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+
+.container4 p {
+  margin: 3px;
+  color: #05386b;
+  font-weight: bold;
+}
+
+.container4 p span {
+  color: #379683;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.App {
+  margin: 3px;
+}
+
+.App h3 {
+  margin: 5px;
+  font-size: 15px;
+  color: #379683;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.App p {
+  font-size: 13px;
+  color: #05386b;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.App span {
+  font-weight: bold;
+}
+
+.App h5 {
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #379683;
+  font-size: 10px;
+  text-align: center;
+}
